@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
         <nav>
           <Navbar></Navbar>
         </nav>
-        <main className="text-center h-[500px] mt-34">
+        <main className="h-[500px] mt-34">
           {children}
         </main>
         <footer className="bg-gray-600 py-3.5">
