@@ -11,13 +11,17 @@ const ServisesDetails = ({params}) => {
    ]
     const id = params.id
     const singleData = data.find((d)=> d.id == id)
-    return (
+    if(singleData){
+      return (
         <div>
             id: {id}
          <p>name: {singleData.name}</p>
           <p>age: {singleData.age}</p>
         </div>
     );
+    }else{
+      return "404 page not found"
+    }
 };
 
 export default ServisesDetails;

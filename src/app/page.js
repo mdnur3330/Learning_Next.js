@@ -1,8 +1,11 @@
-import Image from "next/image";
-
+import { Geist, Geist_Mono, Roboto , Poppins} from "next/font/google";
+const roboro = Roboto ({
+  weight: ["400"],
+  subsets: ["latin"]
+})
 export default function Home() {
   return (
-    <div>
+    <div className={roboro.className}>
       Hellow Banglades
     </div>
   );

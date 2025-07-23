@@ -12,7 +12,7 @@ const Navbar = () => {
 
     return (
         <div>
-            <ul className='text-center flex gap-5 justify-center bg-gray-500 py-4'>
+            <ul className='text-center flex gap-5 justify-center'>
                 <Link href='/'>
                 <li>home</li>
                 </Link>
